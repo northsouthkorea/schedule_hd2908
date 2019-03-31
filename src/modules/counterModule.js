@@ -1,6 +1,4 @@
-import {createAction, handleActions} from 'redux-actions';
 import produce from 'immer';
-
 const INCREMENT = 'counter/num/increment';
 const DECREMENT = 'counter/num/decrement';
 const SET_DIFF = 'counter/num/set_diff';
